@@ -1,0 +1,26 @@
+[
+  {
+    "name": "/Preferences/ROBOT",
+    "type": "string",
+    "value": "NONE",
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/DRIVE",
+    "type": "string",
+    "value": "NONE",
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/ID",
+    "type": "string",
+    "value": "CHANGE ME",
+    "properties": {
+      "persistent": true
+    }
+  }
+]

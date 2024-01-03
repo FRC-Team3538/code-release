@@ -1,0 +1,108 @@
+{
+    "field_image": {
+        "default": "Charged Up"
+    },
+    "paths": {
+        "Grid 6 over CS": {
+            "obstacles": [],
+            "waypoints": [
+                {
+                    "angular_velocity": 0.0,
+                    "angular_velocity_constrained": true,
+                    "control_interval_count": 0,
+                    "heading": -3.141592653589793,
+                    "heading_constrained": true,
+                    "name": "Grid 6",
+                    "velocity_magnitude_constrained": true,
+                    "velocity_x": 0.0,
+                    "velocity_x_constrained": true,
+                    "velocity_y": 0.0,
+                    "velocity_y_constrained": true,
+                    "waypoint_type": "custom",
+                    "x": 1.7804896330195001,
+                    "x_constrained": true,
+                    "y": 2.2522320788648384,
+                    "y_constrained": true
+                },
+                {
+                    "angular_velocity": 0.0,
+                    "angular_velocity_constrained": true,
+                    "control_interval_count": 40,
+                    "heading": -3.141592653589793,
+                    "heading_constrained": true,
+                    "name": "Pre-CS",
+                    "velocity_magnitude_constrained": true,
+                    "velocity_x": 0.1,
+                    "velocity_x_constrained": false,
+                    "velocity_y": 0.0,
+                    "velocity_y_constrained": false,
+                    "waypoint_type": "custom",
+                    "x": 2.528789481955896,
+                    "x_constrained": true,
+                    "y": 2.2522320788648384,
+                    "y_constrained": true
+                },
+                {
+                    "angular_velocity": 0.0,
+                    "angular_velocity_constrained": true,
+                    "control_interval_count": 40,
+                    "heading": -3.141592653589793,
+                    "heading_constrained": true,
+                    "name": "Post-CS",
+                    "velocity_magnitude_constrained": true,
+                    "velocity_x": 0.1,
+                    "velocity_x_constrained": false,
+                    "velocity_y": 0.0,
+                    "velocity_y_constrained": false,
+                    "waypoint_type": "custom",
+                    "x": 5.271249661303942,
+                    "x_constrained": true,
+                    "y": 2.2522320788648384,
+                    "y_constrained": true
+                },
+                {
+                    "angular_velocity": 0.0,
+                    "angular_velocity_constrained": true,
+                    "control_interval_count": 40,
+                    "heading": -3.141592653589793,
+                    "heading_constrained": true,
+                    "name": "Outside Community",
+                    "velocity_magnitude_constrained": true,
+                    "velocity_x": 0.0,
+                    "velocity_x_constrained": true,
+                    "velocity_y": 0.0,
+                    "velocity_y_constrained": true,
+                    "waypoint_type": "custom",
+                    "x": 5.980371507678224,
+                    "x_constrained": true,
+                    "y": 2.2522320788648384,
+                    "y_constrained": true
+                }
+            ]
+        }
+    },
+    "robot_configuration": {
+        "bumper_length": 0.8128,
+        "bumper_width": 0.762,
+        "mass": 59.7,
+        "moment_of_inertia": 5.0,
+        "motor_max_angular_speed": 70.00000000147021,
+        "motor_max_torque": 2.0,
+        "team_number": 3538,
+        "wheel_horizontal_distance": 0.24765,
+        "wheel_radius": 0.051,
+        "wheel_vertical_distance": 0.2224
+    },
+    "selected_path_index": 0,
+    "unit_preferences": {
+        "acceleration_unit": "metre_per_second",
+        "angle_unit": "degree_angle",
+        "angular_speed_unit": "revolution_per_minute",
+        "length_unit": "metre",
+        "mass_unit": "kilogram",
+        "moment_of_inertia_unit": "kilogram_square_metre",
+        "speed_unit": "metre_per_second",
+        "time_unit": "second",
+        "torque_unit": "newton_metre"
+    }
+}
