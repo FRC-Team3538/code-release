@@ -1,0 +1,153 @@
+{
+    "version": "v0.1",
+    "robotConfiguration": {
+        "mass": 59.7,
+        "rotationalInertia": 6,
+        "wheelMaxTorque": 2,
+        "wheelMaxVelocity": 70,
+        "wheelbase": 0.622,
+        "trackWidth": 0.4448,
+        "bumperLength": 0.8128,
+        "bumperWidth": 0.762,
+        "wheelRadius": 0.04445
+    },
+    "paths": {
+        "Blue 1 to Piece 1": {
+            "waypoints": [
+                {
+                    "x": 1.8070330619812012,
+                    "y": 5.033348083496094,
+                    "heading": -3.141592653589793,
+                    "isInitialGuess": false,
+                    "translationConstrained": true,
+                    "headingConstrained": true,
+                    "controlIntervalCount": 0
+                },
+                {
+                    "x": 5.331943988800049,
+                    "y": 5.086073875427246,
+                    "heading": -3.141592653589793,
+                    "isInitialGuess": false,
+                    "translationConstrained": true,
+                    "headingConstrained": true,
+                    "controlIntervalCount": 0
+                },
+                {
+                    "x": 7.283600807189941,
+                    "y": 5.321719646453857,
+                    "heading": -2.4526683919961902,
+                    "isInitialGuess": false,
+                    "translationConstrained": true,
+                    "headingConstrained": true,
+                    "controlIntervalCount": 0
+                },
+                {
+                    "x": 7.493246078491211,
+                    "y": 4.809252738952637,
+                    "heading": -2.5981352564757105,
+                    "isInitialGuess": false,
+                    "translationConstrained": true,
+                    "headingConstrained": true,
+                    "controlIntervalCount": 0
+                },
+                {
+                    "x": 5.35523796081543,
+                    "y": 4.651253700256348,
+                    "heading": -3.127409110316256,
+                    "isInitialGuess": false,
+                    "translationConstrained": true,
+                    "headingConstrained": true,
+                    "controlIntervalCount": 0
+                },
+                {
+                    "x": 1.775399088859558,
+                    "y": 4.413758277893066,
+                    "heading": -3.141592653589793,
+                    "isInitialGuess": false,
+                    "translationConstrained": true,
+                    "headingConstrained": true,
+                    "controlIntervalCount": 0
+                }
+            ],
+            "trajectory": null,
+            "constraints": [
+                {
+                    "scope": [
+                        "first"
+                    ],
+                    "type": "WptZeroVelocity",
+                    "definition": {
+                        "name": "Waypoint Zero Velocity",
+                        "shortName": "Wpt 0 Velo",
+                        "description": "Zero velocity at waypoint",
+                        "icon": {
+                            "type": {
+                                "type": {},
+                                "compare": null
+                            },
+                            "key": null,
+                            "ref": null,
+                            "props": {},
+                            "_owner": null
+                        },
+                        "properties": {},
+                        "wptScope": true,
+                        "sgmtScope": false
+                    },
+                    "uuid": "4a61d1c8-fa11-46f8-9f2b-151c683a919a"
+                },
+                {
+                    "scope": [
+                        "last"
+                    ],
+                    "type": "WptZeroVelocity",
+                    "definition": {
+                        "name": "Waypoint Zero Velocity",
+                        "shortName": "Wpt 0 Velo",
+                        "description": "Zero velocity at waypoint",
+                        "icon": {
+                            "type": {
+                                "type": {},
+                                "compare": null
+                            },
+                            "key": null,
+                            "ref": null,
+                            "props": {},
+                            "_owner": null
+                        },
+                        "properties": {},
+                        "wptScope": true,
+                        "sgmtScope": false
+                    },
+                    "uuid": "e6a17c00-09d2-4aad-8409-1cafe964f5c0"
+                },
+                {
+                    "scope": [
+                        0,
+                        1
+                    ],
+                    "type": "ZeroAngularVelocity",
+                    "definition": {
+                        "name": "Zero Angular Velocity",
+                        "shortName": "0 Ang Velo",
+                        "description": "Zero angular velocity throughout scope",
+                        "icon": {
+                            "type": {
+                                "type": {},
+                                "compare": null
+                            },
+                            "key": null,
+                            "ref": null,
+                            "props": {},
+                            "_owner": null
+                        },
+                        "properties": {},
+                        "wptScope": true,
+                        "sgmtScope": true
+                    },
+                    "uuid": "06ab407a-798b-47fc-b883-84b7c9d16be7"
+                }
+            ]
+        }
+    }
+}

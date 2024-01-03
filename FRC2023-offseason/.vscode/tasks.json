@@ -1,0 +1,60 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Trajectories: Generate All",
+      "type": "shell",
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-v",
+        "${workspaceFolder}/trajectories:/data",
+        "jlmcmchl/helix-trajectory-app:1.0.1",
+        {
+          "quoting": "strong",
+          "value": "${input:project}"
+        },
+        "all"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Trajectories: Generate Matching Name",
+      "type": "shell",
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-v",
+        "${workspaceFolder}/trajectories:/data",
+        "jlmcmchl/helix-trajectory-app:1.0.1",
+        {
+          "quoting": "strong",
+          "value": "${input:project}"
+        },
+        {
+          "quoting": "strong",
+          "value": "${input:pathName}"
+        }
+      ],
+      "problemMatcher": [],
+    }
+  ],
+  "inputs": [
+    {
+      "id": "project",
+      "type": "promptString",
+      "description": "Name of your project file",
+      "default": ""
+    },
+    {
+      "id": "pathName",
+      "type": "promptString",
+      "description": "Pattern to match path names against",
+      "default": ""
+    }
+  ]
+}

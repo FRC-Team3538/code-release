@@ -1,0 +1,13 @@
+// Add these keybindings to your own keybindings.json for path generation shortcuts
+[
+  {
+    "key": "ctrl+'",
+    "command": "workbench.action.tasks.runTask",
+    "args": "Trajectories: Generate All"
+  },
+  {
+    "key": "ctrl+shift+'",
+    "command": "workbench.action.tasks.runTask",
+    "args": "Trajectories: Generate Matching Name"
+  }
+]
