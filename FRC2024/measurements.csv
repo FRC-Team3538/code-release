@@ -1,0 +1,5 @@
+targets, location, distance, x stdev (m), y stdev (m), z stdev (m), rx stdev (deg), ry stdev (deg), rz stdev (deg)
+2, speaker, 36, 0, 0, 0, 0.025, 0.028, 0.029
+2, auto line, 75, 0, 0, 0, 0.02, 0.05, 0.05
+2, wing line, 230, 0.01, 0.05, 0.03, 0.13, 0.34, 0.45
+2, half field, 326, 0.03, 0.17, 0.10, 0.24, 0.74, 1.2
