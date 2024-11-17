@@ -1,0 +1,6 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+*.traj binary
+*.choreo -merge -text
+vision/*.json binary

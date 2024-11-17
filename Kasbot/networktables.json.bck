@@ -1,0 +1,66 @@
+[
+  {
+    "name": "/Preferences/Controller/Driver/Left_Deadband",
+    "type": "double",
+    "value": 0.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/Controller/Driver/Left_Limit",
+    "type": "double",
+    "value": 1.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/Controller/Driver/Right_Deadband",
+    "type": "double",
+    "value": 0.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/Controller/Driver/Right_Limit",
+    "type": "double",
+    "value": 1.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/Controller/Operator/Winch_Deadband",
+    "type": "double",
+    "value": 0.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/Controller/Operator/Winch_Limit",
+    "type": "double",
+    "value": 1.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/Intake/Output",
+    "type": "double",
+    "value": 1.0,
+    "properties": {
+      "persistent": true
+    }
+  },
+  {
+    "name": "/Preferences/Pivot/Setpoint",
+    "type": "double",
+    "value": 0.0,
+    "properties": {
+      "persistent": true
+    }
+  }
+]
